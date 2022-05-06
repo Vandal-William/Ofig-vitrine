@@ -67,6 +67,7 @@ body{
     border: 1px solid #ccc;
     padding: 0.7rem;
     max-width: 30rem;
+    position: relative;
     
     
 }
@@ -142,5 +143,44 @@ body{
 
     color: white;
     text-align: center;
+
+}
+
+.fixe{
+    position: fixed;
+    /* pour placer l'élément */
+    top: 50%;
+    left: 0;
+    padding: 1rem 0.5rem;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    background-color: #c80000;
+    border-top-right-radius: 0.6rem;
+    border-bottom-right-radius: 0.6rem;
+    letter-spacing: -0.3rem;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    color: white;
+
+
+}
+
+.product-sold{
+
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    font-weight: bold;
+    background-color: #c80000;
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+    border: 2px solid black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.3rem;
+
 
 }
